@@ -1,0 +1,56 @@
+.xbody {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+   
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+
+  
+  
+  .about-section {
+    width: auto;
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container1 {
+    padding: 0 16px;
+    position: relative;
+    left:15em;
+    width:auto;
+  
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+
+  
+ 
+  
+  @media screen and (max-width: 473px) {
+    .column {
+      width: 100%;
+      display:block;
+    }
+
+   
+   }
+  
